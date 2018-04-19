@@ -1,0 +1,266 @@
+body{
+  padding: 0;
+  margin: 0;
+}  /*to make the padding and margin 0*/
+
+  /*this style gives width and height to all main divs*/
+.section{
+    width: 100%;
+    height: auto;
+}
+
+#firstdiv {
+  
+  background-image: url("images/second.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: auto;
+  max-width: 100%;
+
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+
+}
+
+li {
+    float: left;
+    width:25%;
+    font-size: 2vw;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    text-decoration: none;
+}
+
+li a:hover {
+    
+    background-color: #111;
+}
+
+
+
+/*this is for about section*/
+
+#secondDiv{
+  background-color: lightblue;
+  height: auto;
+  padding: 4vw;
+  display: flex;
+    flex-wrap: wrap;
+    color: white;
+  }
+
+
+#prophoto{
+   width: 40vw;
+
+}
+
+.flex-container{   /*to give page reposnsiveness*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+#thirdDiv{
+  
+  background-color: black;
+  height: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  
+}
+
+#fifthDiv{
+  background-color: black;
+  height: auto;
+  
+  margin-top: 3vw;
+  
+  }
+   
+.logo{
+  padding-right: 20px;
+  padding-left: 20px;
+ } 
+
+ 
+/*media queries*/
+@media screen and (max-width: 488px){   /*for small devices*/
+
+#text{
+    width:47vw;
+    height:30%; 
+    float: right;
+    padding-top:145px;
+    color: white;
+    font-size: 3.5vw;
+   
+    }
+
+#firstdiv{
+
+height:80%;
+
+}
+.photo{
+  width: 20vw;
+}
+
+#aboutme{
+  width:90vw;
+   }
+
+ #prophoto{
+  width:60vw;
+  height:50vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:4vw;
+ }
+.space{
+width:25vw;
+height:25vw;
+margin-left:20px;
+margin-right: 20px;
+
+}
+.skillHead{
+  font-size: 6vw;
+}
+.projectDiv{
+  width:80vw;
+  height:40vw;
+  margin-top:5vw;
+}
+
+
+}
+
+
+@media screen and (min-width: 489px) and (max-width: 678px){  /*for medium sized devices*/
+
+ 
+ #text{
+    width:47vw;
+    height:30%; 
+    float: right;
+    color: #013567;
+    font-size: 3.5vw;
+    padding-top: 187px;
+    padding-right: 10px;
+}
+
+
+#firstdiv{
+
+height:400px;
+}
+.photo{
+  width: 30vw;
+}
+   
+#aboutme{
+    width:40vw;
+   }
+
+#prophoto{
+  width:35vw;
+  height:35vw;
+  padding-left:10vw;
+  padding-top: 10vw;
+ }
+ .space{
+width:20vw;
+height:20vw;
+margin-left: 50px;
+
+}
+.skillHead{
+  font-size: 8vw;
+}
+.projectDiv{
+  width:45vw;
+  height:30vw;
+  margin-top:4vw;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+}
+
+
+@media screen and (min-width: 679px){    /*for big devies like fablet or laptop*/
+
+#text{
+  width:50vw;
+  height:359px; 
+  float: right;
+  color: white;
+  font-size: 3.4vw;
+  padding-top: 5.5vw;
+  padding-right: 30px;
+}
+
+#firstdiv{
+
+height:80%;
+}
+
+
+.photo{
+  width: 20vw;
+}
+
+#aboutme{
+    width:45vw;
+    font-size: 2vw;
+ }
+
+ #prophoto{
+  width:35vw;
+  height:35vw;
+  padding-left: 5vw;
+ }
+
+ .space{
+    width:12vw;
+    height:15vw;
+    margin-right: 40px;
+    margin-left: 40px;
+   
+   }
+
+   .skillHead{
+  
+  font-size: 50px;
+}
+
+ .projectDiv{
+  width:35vw;
+  height:25vw;
+  padding-top:2vw;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2vw;
+}
+
+
+}
